@@ -1,0 +1,100 @@
+Timestamp,Source IP Address,Destination IP Address,Source Port,Destination Port,Protocol,Packet Length,Packet Type,Traffic Type,Malware Indicators,Anomaly Scores,Alerts/Warnings,Attack Type,Attack Signature,Action Taken,Severity Level,Network Segment,Geo-location Data,Proxy Information,Firewall Logs,IDS/IPS Alerts,Log Source
+30/05/23,103.216.15.12,84.9.164.252,31225,17616,ICMP,503,Data,HTTP,IoC Detected,28.67,,Malware,Known Pattern B,Logged,Low,Segment A,"Jamshedpur, Sikkim",150.9.97.135,Log Data,,Server
+26/08/20,78.199.217.198,66.191.137.154,17245,48166,ICMP,1174,Data,HTTP,IoC Detected,51.5,,Malware,Known Pattern A,Blocked,Low,Segment B,"Bilaspur, Nagaland",,Log Data,,Firewall
+13/11/22,63.79.210.48,198.219.82.17,16811,53600,UDP,306,Control,HTTP,IoC Detected,87.42,Alert Triggered,DDoS,Known Pattern B,Ignored,Low,Segment C,"Bokaro, Rajasthan",114.133.48.179,Log Data,Alert Data,Firewall
+02/07/23,163.42.196.10,101.228.192.255,20018,32534,UDP,385,Data,HTTP,,15.79,Alert Triggered,Malware,Known Pattern B,Blocked,Medium,Segment B,"Jaunpur, Rajasthan",,,Alert Data,Firewall
+16/07/23,71.166.185.76,189.243.174.238,6131,26646,TCP,1462,Data,DNS,,0.52,Alert Triggered,DDoS,Known Pattern B,Blocked,Low,Segment C,"Anantapur, Tripura",149.6.110.119,,Alert Data,Firewall
+28/10/22,198.102.5.160,147.190.155.133,17430,52805,UDP,1423,Data,HTTP,,5.76,,Malware,Known Pattern A,Logged,Medium,Segment C,"Aurangabad, Meghalaya",,,,Server
+16/05/22,97.253.103.59,77.16.101.53,26562,17416,TCP,379,Data,DNS,,31.55,,DDoS,Known Pattern B,Ignored,High,Segment A,"Eluru, Manipur",,Log Data,,Server
+12/02/23,11.48.99.245,178.157.14.116,34489,20396,ICMP,1022,Data,DNS,IoC Detected,54.05,Alert Triggered,Intrusion,Known Pattern A,Logged,High,Segment A,"Phagwara, Andhra Pradesh",192.31.159.5,Log Data,Alert Data,Firewall
+27/06/23,49.32.208.167,72.202.237.9,56296,20857,TCP,1281,Control,FTP,IoC Detected,56.34,Alert Triggered,Intrusion,Known Pattern A,Blocked,High,Segment B,"Ambala, Tripura",,Log Data,Alert Data,Server
+15/08/21,114.109.149.113,160.88.194.172,37918,50039,UDP,224,Data,HTTP,,16.51,Alert Triggered,Malware,Known Pattern B,Blocked,Medium,Segment A,"Rampur, Mizoram",87.128.245.244,,,Server
+20/07/22,177.21.83.200,196.218.124.169,35538,35006,ICMP,661,Data,HTTP,,24.91,Alert Triggered,Malware,Known Pattern B,Ignored,Medium,Segment B,"Gangtok, Haryana",29.161.99.247,,,Server
+26/06/22,92.4.25.171,112.43.185.24,10903,36817,TCP,281,Control,HTTP,,86.07,,Malware,Known Pattern B,Ignored,Low,Segment B,"Nandyal, Mizoram",,,,Firewall
+30/09/20,57.91.207.84,98.96.110.38,53471,38048,ICMP,64,Control,DNS,,74.2,Alert Triggered,Intrusion,Known Pattern A,Blocked,Medium,Segment B,"Silchar, Kerala",,Log Data,Alert Data,Server
+13/01/21,80.28.21.123,111.204.103.106,43729,10845,ICMP,1341,Data,HTTP,,62.14,,Malware,Known Pattern A,Ignored,Low,Segment C,"Gudivada, Odisha",59.131.15.72,,,Firewall
+01/02/23,54.163.130.178,62.112.149.214,47795,35243,UDP,913,Data,DNS,,72.65,Alert Triggered,Malware,Known Pattern B,Logged,High,Segment B,"Silchar, Maharashtra",155.121.88.187,,,Firewall
+15/09/23,130.163.192.252,12.192.2.112,24912,21176,TCP,425,Data,DNS,,91.56,Alert Triggered,Intrusion,Known Pattern B,Logged,Medium,Segment C,"Bhiwandi, Tripura",,Log Data,,Firewall
+18/04/23,4.255.187.165,136.159.186.239,39934,5259,TCP,838,Control,HTTP,,43.83,Alert Triggered,DDoS,Known Pattern B,Ignored,High,Segment B,"Solapur, Telangana",,Log Data,,Server
+21/02/23,212.164.196.41,32.26.31.49,16513,50583,TCP,969,Data,HTTP,,40.46,,DDoS,Known Pattern A,Logged,Low,Segment B,"Darbhanga, Mizoram",20.252.145.34,Log Data,Alert Data,Firewall
+29/12/20,119.101.120.119,47.125.34.52,4510,26783,TCP,124,Control,DNS,,44.75,Alert Triggered,DDoS,Known Pattern B,Ignored,High,Segment C,"Rampur, Rajasthan",,,,Firewall
+27/07/20,104.176.150.78,110.80.185.102,55147,17595,TCP,461,Data,HTTP,IoC Detected,13.19,,DDoS,Known Pattern B,Ignored,High,Segment B,"Ahmednagar, Uttarakhand",106.203.136.99,Log Data,Alert Data,Server
+16/07/21,116.61.253.182,170.92.148.90,24907,37634,ICMP,845,Control,DNS,,89.99,Alert Triggered,Malware,Known Pattern B,Blocked,Medium,Segment A,"Kharagpur, West Bengal",71.135.96.151,Log Data,,Firewall
+29/04/22,214.247.90.42,196.26.121.164,37998,1757,UDP,410,Control,DNS,IoC Detected,86.91,,Malware,Known Pattern B,Blocked,Low,Segment C,"Tadepalligudem, Rajasthan",,Log Data,Alert Data,Server
+24/02/23,57.7.171.107,76.146.23.52,3133,46077,UDP,1425,Data,DNS,,72.25,,DDoS,Known Pattern A,Logged,High,Segment A,"Gaya, Gujarat",169.32.12.215,,Alert Data,Server
+15/09/23,46.236.76.78,68.194.124.162,40832,28015,UDP,118,Data,HTTP,IoC Detected,96.27,,Malware,Known Pattern A,Logged,Medium,Segment A,"Chandrapur, Chhattisgarh",50.108.129.83,,,Firewall
+06/10/23,71.41.31.239,105.193.254.47,39911,27107,TCP,1386,Control,DNS,IoC Detected,67.43,,DDoS,Known Pattern A,Blocked,Medium,Segment C,"Guntakal, Rajasthan",,Log Data,,Server
+06/10/23,128.47.86.24,9.149.23.14,23021,31279,UDP,433,Control,DNS,,89.86,Alert Triggered,Intrusion,Known Pattern A,Logged,Low,Segment C,"Giridih, Assam",,Log Data,Alert Data,Firewall
+31/01/21,182.232.245.98,153.211.183.215,32552,15521,UDP,531,Control,FTP,,87.23,,Malware,Known Pattern A,Blocked,High,Segment C,"Katihar, Andhra Pradesh",183.242.33.16,Log Data,Alert Data,Firewall
+28/08/20,208.44.127.159,121.167.40.167,56607,33023,TCP,282,Control,HTTP,IoC Detected,44.4,Alert Triggered,DDoS,Known Pattern A,Logged,Low,Segment A,"Shahjahanpur, Andhra Pradesh",180.52.47.153,,Alert Data,Firewall
+29/05/21,197.137.61.248,87.49.219.65,64351,43307,ICMP,1487,Control,HTTP,IoC Detected,45.42,,Intrusion,Known Pattern B,Blocked,Low,Segment C,"Solapur, Madhya Pradesh",,Log Data,Alert Data,Firewall
+30/05/22,69.60.34.24,160.208.108.125,19954,11594,UDP,563,Control,DNS,IoC Detected,25.7,,Intrusion,Known Pattern B,Ignored,Medium,Segment C,"Coimbatore, Telangana",,Log Data,Alert Data,Firewall
+02/08/22,110.207.118.63,172.36.150.79,63062,49527,TCP,1313,Control,HTTP,IoC Detected,69.2,Alert Triggered,DDoS,Known Pattern B,Logged,Low,Segment C,"Serampore, West Bengal",,Log Data,,Firewall
+10/01/23,188.40.103.145,84.139.233.32,39208,61136,UDP,350,Control,HTTP,,77.06,Alert Triggered,DDoS,Known Pattern A,Ignored,Medium,Segment A,"Gudivada, Karnataka",,Log Data,Alert Data,Firewall
+15/10/20,99.8.190.190,91.166.229.253,12932,47900,TCP,373,Data,DNS,IoC Detected,3.87,Alert Triggered,Malware,Known Pattern A,Ignored,Medium,Segment B,"Nellore, Tripura",,Log Data,Alert Data,Server
+09/06/21,128.62.6.140,4.104.218.143,11482,16459,ICMP,1155,Control,DNS,,25.93,Alert Triggered,Malware,Known Pattern A,Blocked,Low,Segment B,"Ludhiana, Goa",40.171.118.90,,,Firewall
+08/07/20,211.43.37.93,93.146.128.133,18768,8138,TCP,521,Data,FTP,IoC Detected,60.57,Alert Triggered,DDoS,Known Pattern B,Ignored,High,Segment C,"Orai, Tamil Nadu",,Log Data,Alert Data,Server
+23/09/23,203.171.62.228,27.5.94.221,41615,15184,ICMP,1346,Data,FTP,IoC Detected,67.73,,Intrusion,Known Pattern A,Blocked,Low,Segment A,"Jaunpur, Uttar Pradesh",,,Alert Data,Server
+22/05/22,115.120.220.179,72.56.150.150,34512,40467,UDP,1311,Control,DNS,IoC Detected,75.16,,DDoS,Known Pattern B,Blocked,Medium,Segment C,"Hubli–Dharwad, Chhattisgarh",,,Alert Data,Firewall
+04/06/22,140.29.40.43,61.57.62.247,28975,5960,UDP,117,Control,FTP,,75.46,Alert Triggered,Malware,Known Pattern B,Logged,Low,Segment B,"Sagar, Mizoram",,,,Server
+29/12/22,76.128.95.185,142.92.111.242,46111,15554,TCP,1271,Control,HTTP,,49.03,Alert Triggered,Malware,Known Pattern B,Logged,Medium,Segment C,"Medininagar, Gujarat",,,Alert Data,Firewall
+14/03/23,118.23.216.0,109.17.204.56,5032,1068,TCP,308,Control,DNS,,85.28,Alert Triggered,Intrusion,Known Pattern A,Blocked,Medium,Segment A,"Ichalkaranji, Sikkim",153.251.24.124,,,Server
+13/02/21,212.153.110.146,59.138.247.230,58316,54095,TCP,545,Data,DNS,,6.44,,DDoS,Known Pattern B,Ignored,Medium,Segment A,"Bidar, Maharashtra",,,Alert Data,Firewall
+23/05/21,6.64.251.220,137.104.11.138,26896,45972,UDP,572,Control,DNS,,22.17,,DDoS,Known Pattern B,Ignored,Low,Segment B,"Dewas, Uttar Pradesh",172.194.101.64,Log Data,Alert Data,Server
+01/12/22,170.112.189.99,21.28.78.79,1031,40417,TCP,1474,Control,HTTP,IoC Detected,29.66,,DDoS,Known Pattern B,Logged,Low,Segment A,"Adoni, Tripura",,,,Firewall
+21/07/22,50.30.140.36,76.154.100.68,57124,48417,UDP,1363,Data,FTP,IoC Detected,10.75,Alert Triggered,Intrusion,Known Pattern A,Blocked,High,Segment A,"Eluru, Uttarakhand",,Log Data,,Server
+09/06/23,194.120.14.24,201.55.168.126,32979,3852,UDP,443,Data,DNS,,42.14,Alert Triggered,Malware,Known Pattern B,Ignored,High,Segment A,"Parbhani, Rajasthan",16.90.191.251,Log Data,Alert Data,Server
+10/04/20,69.29.17.248,85.236.61.31,59738,44531,TCP,1026,Data,FTP,,77.73,,DDoS,Known Pattern B,Logged,Low,Segment A,"Panvel, West Bengal",,,,Firewall
+16/05/23,170.211.138.30,172.97.181.148,25022,6593,TCP,554,Control,DNS,IoC Detected,97.82,Alert Triggered,Malware,Known Pattern B,Blocked,High,Segment A,"Amravati, Kerala",95.170.137.42,Log Data,Alert Data,Firewall
+08/10/20,107.247.253.62,45.35.146.21,10584,23178,ICMP,649,Data,HTTP,IoC Detected,83.36,Alert Triggered,Intrusion,Known Pattern A,Blocked,High,Segment C,"Vijayawada, Bihar",197.238.110.123,,Alert Data,Server
+20/08/21,118.175.170.127,43.100.128.47,23934,57206,TCP,1378,Control,DNS,IoC Detected,40.71,,Malware,Known Pattern A,Blocked,Medium,Segment C,"Giridih, Chhattisgarh",20.86.235.147,Log Data,Alert Data,Firewall
+08/05/21,16.65.249.237,24.79.26.247,57819,10509,ICMP,107,Data,HTTP,,1.33,Alert Triggered,DDoS,Known Pattern B,Ignored,High,Segment A,"Nashik, Assam",131.208.67.33,Log Data,,Firewall
+18/01/23,122.130.86.58,110.54.165.63,49005,19289,ICMP,317,Data,HTTP,IoC Detected,56.92,,DDoS,Known Pattern A,Ignored,Low,Segment A,"Medininagar, Himachal Pradesh",79.251.62.155,Log Data,Alert Data,Server
+16/04/21,193.45.37.6,191.56.96.54,56497,23998,ICMP,875,Data,HTTP,IoC Detected,0.9,,DDoS,Known Pattern B,Blocked,High,Segment B,"Tiruppur, Nagaland",211.236.141.117,,,Server
+28/04/22,68.123.14.202,168.106.24.90,32348,12619,UDP,576,Data,DNS,,77.7,,DDoS,Known Pattern A,Blocked,Low,Segment B,"Siliguri, Haryana",,Log Data,,Firewall
+20/02/23,19.14.168.54,68.144.93.235,23870,21385,TCP,619,Data,FTP,IoC Detected,67.56,Alert Triggered,Intrusion,Known Pattern B,Logged,High,Segment B,"Tiruppur, Bihar",,Log Data,,Server
+13/12/20,168.159.245.149,211.64.146.125,46895,63852,TCP,1224,Data,HTTP,IoC Detected,91.82,Alert Triggered,Malware,Known Pattern A,Logged,Medium,Segment C,"Guntur, Tamil Nadu",,,Alert Data,Server
+20/08/22,22.96.76.59,43.219.176.9,11468,31398,TCP,632,Data,FTP,,50.13,,Malware,Known Pattern A,Logged,Low,Segment C,"Bhimavaram, Assam",,Log Data,,Firewall
+23/05/22,163.93.76.114,36.148.218.135,30954,3615,UDP,670,Control,HTTP,,41.53,,Intrusion,Known Pattern B,Blocked,Low,Segment A,"Hazaribagh, Uttar Pradesh",,Log Data,,Server
+12/01/20,37.225.176.201,204.179.190.185,59009,28541,ICMP,88,Data,HTTP,,91.21,,DDoS,Known Pattern B,Blocked,High,Segment C,"Vadodara, Himachal Pradesh",,Log Data,,Server
+24/03/21,123.233.44.106,154.223.194.82,38169,9878,TCP,1497,Control,HTTP,,82.8,Alert Triggered,Malware,Known Pattern B,Ignored,Low,Segment C,"Bhatpara, West Bengal",98.113.146.243,,Alert Data,Server
+12/01/20,158.145.58.183,82.213.128.111,35384,2184,ICMP,304,Data,DNS,,78.85,,Intrusion,Known Pattern A,Ignored,High,Segment A,"Noida, Mizoram",122.32.192.199,Log Data,,Firewall
+08/10/21,193.109.94.146,189.14.24.22,22371,4914,ICMP,1001,Data,HTTP,IoC Detected,50.69,Alert Triggered,DDoS,Known Pattern A,Ignored,Low,Segment A,"Hospet, Assam",6.126.178.223,,,Firewall
+17/08/22,122.108.169.214,7.195.147.252,10510,4024,UDP,1352,Data,HTTP,IoC Detected,75.3,,Malware,Known Pattern A,Logged,High,Segment B,"Madanapalle, Odisha",,,Alert Data,Server
+17/08/22,64.58.36.254,179.161.134.184,57482,1091,UDP,548,Data,FTP,,33.08,,DDoS,Known Pattern B,Blocked,Low,Segment C,"Kalyan-Dombivli, Gujarat",30.88.14.231,,Alert Data,Server
+10/03/20,61.217.244.146,167.60.226.61,7703,19110,UDP,1114,Data,DNS,,7.27,Alert Triggered,Intrusion,Known Pattern A,Logged,High,Segment B,"Visakhapatnam, Maharashtra",21.71.155.63,,Alert Data,Server
+20/11/22,21.23.245.141,135.172.206.155,33992,31136,TCP,149,Data,DNS,IoC Detected,76.68,Alert Triggered,DDoS,Known Pattern B,Ignored,Low,Segment A,"Singrauli, Telangana",,,Alert Data,Server
+17/11/22,183.2.17.209,205.172.143.0,55666,4791,TCP,548,Data,FTP,IoC Detected,36.22,Alert Triggered,Intrusion,Known Pattern B,Logged,Medium,Segment C,"Begusarai, Uttarakhand",,,Alert Data,Firewall
+08/01/22,89.234.123.19,180.17.247.177,20947,24568,UDP,1106,Control,HTTP,IoC Detected,13.36,Alert Triggered,Malware,Known Pattern A,Logged,High,Segment C,"Pallavaram, Haryana",38.219.87.215,,Alert Data,Firewall
+03/03/20,157.164.90.122,7.220.81.96,38322,33655,UDP,1290,Control,FTP,IoC Detected,69.01,,Intrusion,Known Pattern B,Ignored,Low,Segment B,"Alwar, Gujarat",,,Alert Data,Server
+15/02/21,123.185.30.222,22.188.5.93,15973,29809,UDP,190,Data,DNS,IoC Detected,4.74,Alert Triggered,DDoS,Known Pattern B,Logged,High,Segment A,"Thane, Arunachal Pradesh",54.169.213.25,,Alert Data,Firewall
+13/09/20,185.157.240.136,107.0.155.243,5107,60905,ICMP,995,Control,DNS,,51.66,Alert Triggered,Malware,Known Pattern A,Logged,High,Segment C,"Bangalore, Uttar Pradesh",98.8.33.127,Log Data,,Firewall
+25/12/22,195.177.54.54,50.191.236.203,15067,58291,TCP,1342,Control,HTTP,IoC Detected,83.86,Alert Triggered,Intrusion,Known Pattern A,Blocked,High,Segment B,"Tinsukia, Meghalaya",218.15.7.144,Log Data,,Firewall
+27/01/21,221.219.44.103,36.211.253.244,18782,24516,ICMP,722,Data,HTTP,,79.61,Alert Triggered,Malware,Known Pattern A,Ignored,Medium,Segment C,"Coimbatore, Tamil Nadu",135.149.249.27,Log Data,Alert Data,Firewall
+30/05/23,86.165.141.178,19.155.138.245,44364,53766,ICMP,1181,Control,DNS,,14.95,Alert Triggered,Malware,Known Pattern B,Blocked,Low,Segment A,"Howrah, Sikkim",,,Alert Data,Server
+30/06/20,70.228.121.60,204.219.67.217,11307,36569,TCP,907,Control,DNS,,12.1,,Malware,Known Pattern B,Logged,Medium,Segment B,"Varanasi, Telangana",107.248.33.137,Log Data,,Firewall
+07/07/20,201.86.3.78,13.200.168.199,62568,27834,ICMP,1427,Data,HTTP,IoC Detected,3.33,,Intrusion,Known Pattern A,Ignored,High,Segment B,"Indore, Rajasthan",,,,Server
+18/03/20,61.152.211.241,155.90.185.195,16019,14834,UDP,793,Control,HTTP,IoC Detected,18.93,Alert Triggered,Intrusion,Known Pattern A,Blocked,Low,Segment B,"Ballia, Jharkhand",,,,Server
+09/03/20,46.229.143.176,218.214.206.217,54052,10368,ICMP,686,Control,DNS,,96.83,,DDoS,Known Pattern A,Ignored,Low,Segment B,"Gopalpur, Andhra Pradesh",,,,Server
+07/07/23,38.130.51.208,190.9.156.57,40014,9720,UDP,1092,Data,DNS,,82.75,Alert Triggered,Intrusion,Known Pattern A,Logged,Low,Segment C,"Rewa, Uttarakhand",138.40.118.172,Log Data,,Firewall
+25/12/22,27.57.214.142,46.220.52.17,55034,52843,UDP,492,Data,HTTP,,88.16,Alert Triggered,Intrusion,Known Pattern B,Logged,High,Segment A,"Surendranagar Dudhrej, Sikkim",,,Alert Data,Server
+12/04/21,86.45.110.141,92.133.40.138,31548,18263,UDP,811,Data,FTP,IoC Detected,45.33,,Malware,Known Pattern B,Blocked,Medium,Segment C,"Begusarai, Andhra Pradesh",,,,Server
+20/04/21,29.187.204.185,178.79.44.158,14156,14806,ICMP,1444,Control,HTTP,IoC Detected,91.08,,Intrusion,Known Pattern A,Logged,Low,Segment A,"Latur, Himachal Pradesh",,,Alert Data,Firewall
+06/06/23,168.230.63.34,170.34.138.235,7828,38216,UDP,423,Control,DNS,,45.27,Alert Triggered,Intrusion,Known Pattern B,Logged,Low,Segment B,"Proddatur, Jharkhand",65.202.47.241,Log Data,,Firewall
+11/07/21,221.187.162.221,174.67.68.203,53318,29162,TCP,744,Data,HTTP,IoC Detected,51.59,,Malware,Known Pattern B,Ignored,Low,Segment A,"Bhatpara, Tamil Nadu",,Log Data,Alert Data,Firewall
+24/12/20,199.219.72.118,159.213.20.78,15743,33364,TCP,173,Control,HTTP,IoC Detected,73.69,Alert Triggered,Intrusion,Known Pattern A,Ignored,Low,Segment C,"Raipur, Odisha",,Log Data,Alert Data,Server
+13/09/23,44.24.112.64,71.28.47.114,27274,28937,ICMP,340,Data,HTTP,,27.25,Alert Triggered,Intrusion,Known Pattern A,Blocked,High,Segment B,"Giridih, Himachal Pradesh",,,,Server
+23/01/23,107.70.70.221,38.176.49.37,13393,3334,ICMP,1082,Control,FTP,,81.43,Alert Triggered,Malware,Known Pattern A,Logged,Low,Segment A,"Thanjavur, Uttarakhand",33.159.69.159,Log Data,,Server
+05/04/22,118.36.129.69,31.41.38.21,35332,61817,ICMP,876,Control,DNS,,89.28,,Intrusion,Known Pattern A,Blocked,Low,Segment A,"Warangal, Meghalaya",189.22.11.33,,,Firewall
+30/09/20,76.111.202.72,42.40.168.103,47821,52974,UDP,1319,Data,DNS,IoC Detected,43.95,,Intrusion,Known Pattern A,Ignored,Medium,Segment B,"Darbhanga, Haryana",,Log Data,,Firewall
+06/08/23,148.126.105.201,125.5.69.191,4384,31482,TCP,976,Data,DNS,IoC Detected,1.31,Alert Triggered,DDoS,Known Pattern A,Blocked,Medium,Segment A,"Gwalior, Nagaland",,,Alert Data,Firewall
+20/11/22,130.204.139.35,165.165.89.101,27807,53451,UDP,985,Control,HTTP,,98.14,Alert Triggered,Malware,Known Pattern B,Logged,High,Segment A,"South Dumdum, Uttar Pradesh",,,,Server
+17/03/20,100.247.164.6,154.189.148.49,39737,17067,ICMP,902,Data,FTP,IoC Detected,84.95,,Malware,Known Pattern A,Logged,Medium,Segment B,"Kurnool, Karnataka",,,Alert Data,Firewall
+08/08/20,88.204.79.6,64.153.177.110,16224,48472,UDP,889,Control,HTTP,IoC Detected,14.56,,Malware,Known Pattern B,Blocked,Medium,Segment C,"Vijayanagaram, Sikkim",94.34.21.82,Log Data,,Firewall
+21/03/22,149.253.227.55,77.40.158.129,31907,51180,TCP,1492,Data,HTTP,,31.8,,Malware,Known Pattern B,Logged,Medium,Segment B,"Chandigarh, Manipur",,Log Data,,Firewall
+13/02/23,160.148.168.183,214.36.26.162,26586,17971,UDP,787,Control,DNS,IoC Detected,3.7,Alert Triggered,Malware,Known Pattern B,Logged,Low,Segment A,"Pune, Himachal Pradesh",108.175.178.25,,,Server
+13/10/22,75.160.180.145,149.125.243.212,25179,13739,ICMP,1070,Control,HTTP,,97.64,,Intrusion,Known Pattern B,Logged,Medium,Segment C,"Rajkot, Tamil Nadu",31.73.203.250,,,Server
+24/11/21,169.21.155.127,171.38.239.42,47513,9156,UDP,1455,Control,FTP,IoC Detected,58.19,Alert Triggered,DDoS,Known Pattern A,Ignored,High,Segment C,"Gudivada, Punjab",4.152.115.150,,,Firewall
+31/12/21,92.192.73.229,72.77.74.9,12215,50585,TCP,640,Control,HTTP,,10.44,Alert Triggered,Intrusion,Known Pattern A,Blocked,Medium,Segment C,"Maheshtala, Chhattisgarh",,Log Data,Alert Data,Server
+25/10/21,129.189.216.143,197.202.27.160,19199,27928,ICMP,1178,Data,HTTP,IoC Detected,5.39,Alert Triggered,Malware,Known Pattern B,Ignored,High,Segment C,"Tirunelveli, Gujarat",57.192.174.154,Log Data,Alert Data,Server
+25/04/22,60.223.224.39,218.187.232.192,26123,7023,ICMP,158,Data,HTTP,IoC Detected,91.79,,Intrusion,Known Pattern A,Ignored,Medium,Segment B,"Raipur, Himachal Pradesh",45.57.200.181,,,Server
